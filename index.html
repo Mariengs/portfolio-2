@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Marianne Engesvik | Frontend Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <h1 class="logo">
+          <a href="/">Marianne Engesvik – Frontend Developer</a>
+        </h1>
+        <nav class="main-nav">
+          <a href="/">Home</a>
+          <!-- Hvis du senere vil ha About / Contact, kan du legge til flere lenker her -->
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="intro">
+        <h2>Selected projects</h2>
+        <p>
+          A selection of course assignments and projects built during my
+          Frontend Development studies at Noroff.
+        </p>
+      </section>
+
+      <section id="projects" class="projects-grid">
+        <!-- Teaser cards genereres av src/main.js -->
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          &copy; <span id="year"></span> Marianne Waago. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
