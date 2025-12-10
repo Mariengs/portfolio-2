@@ -1,17 +1,17 @@
 .card {
-  background: radial-gradient(circle at top left, #1f2937, #020617);
+  background: radial-gradient(circle at top left, #111827, #020617);
   border-radius: 1.25rem;
   padding: 1.1rem;
-  border: 1px solid rgba(148, 163, 184, 0.6);
-  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.45);
   transition: transform 0.18s ease, box-shadow 0.18s ease,
     border-color 0.18s ease;
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 22px 50px rgba(15, 23, 42, 0.9);
-  border-color: #38bdf8;
+  transform: translateY(-3px);
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.55);
+  border-color: rgba(56, 189, 248, 0.6);
 }
 
 .link {

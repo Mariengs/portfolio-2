@@ -16,7 +16,7 @@ const projects = [
     title: "JavaScript Frameworks",
     description:
       "Single page application built with a JavaScript framework, including routing and API integration.",
-    image: "/images/js-frameworks.webp",
+    image: "/images/jsf-25.png",
     imageAlt: "Screenshot of the JavaScript Frameworks project",
     href: "/projects/js-frameworks.html",
   },
