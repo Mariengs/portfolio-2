@@ -6,7 +6,7 @@ const projects = [
     id: "css-frameworks",
     title: "CSS Frameworks",
     description:
-      "Responsive layout built using a modern CSS framework with focus on components and accessibility.",
+      "Styled an existing JS2 project using Tailwind, creating responsive pages with modern UI patterns and clean component structure",
     image: "/images/css-frameworks.webp",
     imageAlt: "Screenshot of the CSS Frameworks project",
     href: "/projects/css-frameworks.html",
@@ -15,8 +15,8 @@ const projects = [
     id: "js-frameworks",
     title: "JavaScript Frameworks",
     description:
-      "Single page application built with a JavaScript framework, including routing and API integration.",
-    image: "/images/jsf-25.png",
+      "Built a React-based eCom store with dynamic routing, product search, cart functionality, and a complete checkout flow.",
+    image: "/images/jsf-25.webp",
     imageAlt: "Screenshot of the JavaScript Frameworks project",
     href: "/projects/js-frameworks.html",
   },
