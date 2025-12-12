@@ -7,7 +7,7 @@ const projects = [
     title: "CSS Frameworks",
     description:
       "Styled an existing JS2 project using Tailwind, creating responsive pages with modern UI patterns and clean component structure",
-    image: "/images/css-frameworks.webp",
+    image: "/images/cssimg.webp",
     imageAlt: "Screenshot of the CSS Frameworks project",
     href: "/projects/css-frameworks.html",
   },
@@ -24,8 +24,8 @@ const projects = [
     id: "semester-project-2",
     title: "Semester Project 2",
     description:
-      "A full front-end project combining design, architecture and real-world API integration.",
-    image: "/images/semester-project-2.webp",
+      "An interactive front-end auction platform built with vanilla JavaScript and Tailwind CSS, featuring user authentication, live bidding, and responsive design.",
+    image: "/images/SP2img.webp",
     imageAlt: "Screenshot of the Semester Project 2 site",
     href: "/projects/semester-project-2.html",
   },
