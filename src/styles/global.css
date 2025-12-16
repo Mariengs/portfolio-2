@@ -106,13 +106,25 @@ body {
 /* Footer */
 .site-footer {
   border-top: 1px solid rgba(148, 163, 184, 0.4);
-  margin-top: 2rem;
-  padding: 1rem 0 2rem;
+  margin-top: 1rem;
+  padding: 0;
+  font-size: 0.85rem;
   color: #9ca3af;
-  font-size: 0.9rem;
 }
 
-/* -------- Article pages -------- */
+.site-footer .container {
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-footer p {
+  margin: 0;
+  text-align: center;
+}
+
+/*  Article pages  */
 
 .article-main {
   padding-top: 2.5rem;
