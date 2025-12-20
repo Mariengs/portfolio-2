@@ -29,7 +29,7 @@ A clean, modern portfolio website showcasing frontend development projects built
 1. Clone the repository:
 
 ```bash
-git clone
+git clone https://github.com/Mariengs/portfolio-2.git
 cd portfolio-2
 ```
 
