@@ -2,15 +2,15 @@ import "./styles/global.css";
 import { createProjectCard } from "./components/ProjectCard.js";
 
 const projects = [
-  // {
-  //   id: "css-frameworks",
-  //   title: "CSS Frameworks",
-  //   description:
-  //     "Styled an existing JS2 project using Tailwind, creating responsive pages with modern UI patterns and clean component structure",
-  //   image: "/images/cssimg.webp",
-  //   imageAlt: "Screenshot of the CSS Frameworks project",
-  //   href: "/projects/css-frameworks.html",
-  // },
+  {
+    id: "css-frameworks",
+    title: "CSS Frameworks",
+    description:
+      "Styled an existing JS2 project using Tailwind, creating responsive pages with modern UI patterns and clean component structure",
+    image: "/images/cssimg.webp",
+    imageAlt: "Screenshot of the CSS Frameworks project",
+    href: "/projects/css-frameworks.html",
+  },
   {
     id: "js-frameworks",
     title: "JavaScript Frameworks",
