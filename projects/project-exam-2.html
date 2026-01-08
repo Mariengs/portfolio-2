@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Project Exam 2 | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/src/styles/global.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <h1 class="logo">
+          <a href="/">Marianne Engesvik – Frontend Developer</a>
+        </h1>
+        <nav class="main-nav">
+          <a href="/">Home</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container article-main">
+      <header class="article-header">
+        <div class="article-title-row">
+          <h1>Project Exam 2</h1>
+          <button class="copy-link-btn" type="button" data-copy-link>
+            Copy link
+          </button>
+        </div>
+        <div class="article-meta">
+          <span>Project Exam 2</span>
+          <span>Focus: React, TypeScript, role-based UX, API integration</span>
+        </div>
+      </header>
+
+      <figure class="article-figure">
+        <img
+          src="/images/holidaze.ss.webp"
+          alt="Screenshot of the Project Exam 2 application"
+        />
+        <figcaption>
+          The main interface of the Project Exam 2 application.
+        </figcaption>
+      </figure>
+
+      <section class="article-meta">
+        <a
+          href="https://holidaze-app1.netlify.app/"
+          target="_blank"
+          rel="noopener"
+        >
+          View live site
+        </a>
+        <a
+          href="https://github.com/Mariengs/holidaze-app"
+          target="_blank"
+          rel="noopener"
+        >
+          View GitHub repository
+        </a>
+        <a
+          href="https://github.com/Mariengs/holidaze-app?tab=readme-ov-file#holidaze--project-exam-2"
+          target="_blank"
+          rel="noopener"
+        >
+          View README
+        </a>
+      </section>
+
+      <section class="article-content">
+        <div class="article-section">
+          <h2>About the project</h2>
+          <p>
+            Holidaze is a modern accommodation booking platform developed as
+            part of Project Exam 2 at Noroff. The purpose of the project was to
+            design and build a fully functional front-end application that
+            communicates with the official Holidaze API and supports different
+            user roles with distinct functionality.
+          </p>
+          <p>
+            The application allows all users to browse and search venues, view
+            detailed venue pages, and explore availability through a booking
+            calendar. Registered customers can create and manage bookings, while
+            venue managers can create, edit, and delete their own venues, as
+            well as view bookings associated with their listings.
+          </p>
+          <p>
+            A strong focus was placed on clear user flows, responsive design,
+            and scalable architecture. Role-based access, form validation, and
+            API-driven state were implemented to ensure a realistic and reliable
+            booking experience. Tailwind CSS was used to create a consistent and
+            accessible UI that works seamlessly across desktop and mobile
+            devices.
+          </p>
+        </div>
+
+        <div class="article-section">
+          <h2>Tech stack</h2>
+          <ul>
+            <li>React with React Router v7</li>
+            <li>TypeScript</li>
+            <li>Vite</li>
+            <li>Vitest & Testing Library</li>
+            <li>Holidaze API</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Engesvik. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/articlePage.js"></script>
+  </body>
+</html>
