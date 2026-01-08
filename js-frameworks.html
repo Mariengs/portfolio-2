@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScript Frameworks Project | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/src/styles/global.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <h1 class="logo">
+          <a href="/">Marianne Engesvik – Frontend Developer</a>
+        </h1>
+        <nav class="main-nav">
+          <a href="/">Home</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container article-main">
+      <header class="article-header">
+        <div class="article-title-row">
+          <h1>JavaScript Frameworks Project</h1>
+          <button class="copy-link-btn" type="button" data-copy-link>
+            Copy link
+          </button>
+        </div>
+        <div class="article-meta">
+          <span>Course assignment: JavaScript Frameworks</span>
+          <span
+            >Focus: SPA architecture, React Router navigation, API integration,
+            state management, form validation, and responsive design.</span
+          >
+        </div>
+      </header>
+
+      <figure class="article-figure">
+        <img
+          src="/images/jsf-25.webp"
+          alt="Screenshot of the JavaScript Frameworks project"
+        />
+        <figcaption>
+          Single-page application built during the JavaScript Frameworks course.
+        </figcaption>
+      </figure>
+
+      <section class="article-meta">
+        <a href="https://jsf-25.netlify.app/" target="_blank" rel="noopener">
+          View live site
+        </a>
+        <a
+          href="https://github.com/Mariengs/noroff-ecom"
+          target="_blank"
+          rel="noopener"
+        >
+          View GitHub repository
+        </a>
+        <a
+          href="https://github.com/Mariengs/noroff-ecom#lumishop--noroff-e-commerce-project"
+          target="_blank"
+          rel="noopener"
+        >
+          View GitHub README
+        </a>
+      </section>
+
+      <section class="article-content">
+        <div class="article-section">
+          <h2>About the project</h2>
+          <p>
+            This project involved building a complete eCommerce storefront using
+            React and the Noroff Online Shop API. The application includes
+            essential eCom features such as product listings, dynamic product
+            pages, cart management, a checkout flow and a validated contact
+            form. I used React Router for navigation, designed reusable
+            components and implemented global state for the cart. The homepage
+            features a look-ahead search bar, improving usability and product
+            discovery. The checkout success page clears the cart and guides the
+            user back to the store, creating a full end-to-end shopping
+            experience. The project is fully responsive and deployed on Netlify,
+            showcasing my ability to structure a React application, manage data
+            flows and build interactive, user-friendly interfaces from scratch.
+          </p>
+        </div>
+
+        <div class="article-section">
+          <h2>Tech stack</h2>
+          <ul>
+            <li>
+              <strong>React + TypeScript:</strong> Core logic, components, and
+              strong typing for safer code
+            </li>
+            <li>
+              <strong>React Router DOM:</strong> SPA navigation and dynamic
+              product routes
+            </li>
+            <li>
+              <strong>Context API + Reducer:</strong> Global cart state
+              management and predictable updates
+            </li>
+            <li>
+              <strong>CSS Modules:</strong> Scoped, maintainable styling for
+              each component
+            </li>
+            <li>
+              <strong>Vite:</strong> Fast development environment and optimized
+              production builds
+            </li>
+            <li>
+              <strong>Noroff API:</strong> Product data, pricing, discounts, and
+              reviews
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          &copy; <span id="year"></span> Marianne Engesvik. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/articlePage.js"></script>
+  </body>
+</html>
